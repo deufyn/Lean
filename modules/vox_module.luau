@@ -1,7 +1,7 @@
 local VoxModules = {}
 
-local PlayersData: { any } = {}
-local FruitsData: { any } = {}
+-- local PlayersData: { any } = {}
+-- local FruitsData: { any } = {}
 
 function VoxModules.get_islands(): { { Name: string, CFrame: CFrame } }
     local IslandsData: { { Name: string, CFrame: CFrame } } = {}
